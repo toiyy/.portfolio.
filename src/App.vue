@@ -3,9 +3,7 @@
     <hero></hero>
     <projects></projects>
     <about></about>
-    <competitions></competitions>
-    
-    
+    <history></history>
     <contact></contact>
   </div>
 </template>
@@ -13,8 +11,7 @@
 <script>
 import Hero from './components/Hero'
 import About from './components/About'
-import Competitions from './components/Competitions'
-
+import history from './components/history'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 
@@ -23,8 +20,7 @@ export default {
   components: {
     Hero,
     About,
-    Competitions,
-    
+    history,
     Projects,
     Contact
   }

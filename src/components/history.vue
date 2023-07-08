@@ -1,12 +1,12 @@
 <template>
-  <div id="competitions">
+  <div id="history">
     <section class="section">
     <div class="has-text-centered">
-    <span class="underline heading is-size-2 w300">history</span>
+    <span class="underline heading is-size-2 w300">History</span>
     </div>
     <div>
     <div class="timeline">
-        <div v-for="(value) in competitions" :key="value" class="timeline__group">
+        <div v-for="(value) in history" :key="value" class="timeline__group">
             <span class="timeline__year">{{ value.year }}</span>
             <div v-for="(value) in value.events" :key="value" class="timeline__box">
                 
@@ -30,11 +30,11 @@
 </template>
 
 <script>
-import competitons_data from '../data/competitions.json';
+import history_data from '../data/history.json';
 export default {
   data() {
     return {
-      competitions:competitons_data
+      history:history_data
     }
   }
 }

@@ -16,8 +16,7 @@
         <div class="navbar-item">
             <a class="navbar-item underline" v-smooth-scroll="{duration: 1000}" href="#projects">Projects</a>
             <a class="navbar-item underline" v-smooth-scroll="{duration: 1000}" href="#about">About</a>
-            
-
+            <a class="navbar-item underline" v-smooth-scroll="{duration: 1000}" href="#history">History</a>
             <a class="navbar-item underline" v-smooth-scroll="{duration: 1000}" href="#contact">Contact</a>
         </div>
         </div>
